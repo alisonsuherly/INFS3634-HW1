@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/moscow_buil" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:text="MOS COW"
+        android:textColor="#FF5722"
+        android:textColorHighlight="#00DB1A1A"
+        android:textSize="35sp"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/moscowTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingTop="9dp"
+        android:textSize="25sp" />
+
+</LinearLayout>
